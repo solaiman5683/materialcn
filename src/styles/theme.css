@@ -1,0 +1,116 @@
+:root {
+  --radius: 0.625rem;
+
+  /* Light defaults (used until JS updates) */
+  --background: #ffffff;
+  --foreground: #111111;
+  --card: #ffffff;
+  --card-foreground: #111111;
+  --popover: #ffffff;
+  --popover-foreground: #111111;
+
+  --primary: #6750A4;
+  --primary-foreground: #ffffff;
+  --secondary: #625B71;
+  --secondary-foreground: #ffffff;
+
+  --muted: #E6E0E9;
+  --muted-foreground: #49454F;
+
+  --accent: #EADDFF;
+  --accent-foreground: #21005D;
+
+  --destructive: #B3261E;
+  --destructive-foreground: #ffffff;
+
+  --border: #CAC4D0;
+  --input: #E6E0E9;
+  --ring: #6750A4;
+
+  --sidebar: #F7F2FA;
+  --sidebar-foreground: #1D1B20;
+  --sidebar-primary: #6750A4;
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-accent: #E8DEF8;
+  --sidebar-accent-foreground: #1D192B;
+  --sidebar-border: #E6E0E9;
+  --sidebar-ring: #6750A4;
+
+  /* Optional aliases to richer MD surfaces if the JS has set them */
+  --surface-dim: var(--md-sys-color-surface-dim, #f3f0f6);
+  --surface-bright: var(--md-sys-color-surface-bright, #ffffff);
+  --surface-container-lowest: var(--md-sys-color-surface-container-lowest, #ffffff);
+  --surface-container-low: var(--md-sys-color-surface-container-low, #fcf8ff);
+  --surface-container: var(--md-sys-color-surface-container, #f6f2fa);
+  --surface-container-high: var(--md-sys-color-surface-container-high, #f0ebf6);
+  --surface-container-highest: var(--md-sys-color-surface-container-highest, #ebe4f2);
+  --inverse-surface: var(--md-sys-color-inverse-surface, #332d41);
+  --inverse-on-surface: var(--md-sys-color-inverse-on-surface, #f5eff7);
+  --outline-variant: var(--md-sys-color-outline-variant, #CAC4D0);
+
+  --primary-container: var(--md-sys-color-primary-container, #EADDFF);
+  --on-primary-container: var(--md-sys-color-on-primary-container, #21005D);
+  --secondary-container: var(--md-sys-color-secondary-container, #E8DEF8);
+  --on-secondary-container: var(--md-sys-color-on-secondary-container, #1D192B);
+  --tertiary: var(--md-sys-color-tertiary, #7D5260);
+  --on-tertiary: var(--md-sys-color-on-tertiary, #ffffff);
+  --tertiary-container: var(--md-sys-color-tertiary-container, #FFD8E4);
+  --on-tertiary-container: var(--md-sys-color-on-tertiary-container, #31111D);
+}
+
+.dark {
+  /* Dark defaults (used until JS updates) */
+  --background: #121212;
+  --foreground: #eeeeee;
+  --card: #1E1E1E;
+  --card-foreground: #eeeeee;
+  --popover: #1E1E1E;
+  --popover-foreground: #eeeeee;
+
+  --primary: #D0BCFF;
+  --primary-foreground: #371E73;
+  --secondary: #CCC2DC;
+  --secondary-foreground: #332D41;
+
+  --muted: #49454F;
+  --muted-foreground: #CAC4D0;
+
+  --accent: #4A4458;
+  --accent-foreground: #E6E0E9;
+
+  --destructive: #CF6679;
+  --destructive-foreground: #1E1E1E;
+
+  --border: #3A3A3A;
+  --input: #2A2A2A;
+  --ring: #D0BCFF;
+
+  --sidebar: #1E1B24;
+  --sidebar-foreground: #E6E1E5;
+  --sidebar-primary: #D0BCFF;
+  --sidebar-primary-foreground: #371E73;
+  --sidebar-accent: #4F378B;
+  --sidebar-accent-foreground: #E6E0E9;
+  --sidebar-border: #2E2E2E;
+  --sidebar-ring: #D0BCFF;
+
+  --surface-dim: var(--md-sys-color-surface-dim, #141218);
+  --surface-bright: var(--md-sys-color-surface-bright, #2B2930);
+  --surface-container-lowest: var(--md-sys-color-surface-container-lowest, #0F0D13);
+  --surface-container-low: var(--md-sys-color-surface-container-low, #1D1B20);
+  --surface-container: var(--md-sys-color-surface-container, #211F26);
+  --surface-container-high: var(--md-sys-color-surface-container-high, #2B2930);
+  --surface-container-highest: var(--md-sys-color-surface-container-highest, #36343B);
+  --inverse-surface: var(--md-sys-color-inverse-surface, #E6E1E5);
+  --inverse-on-surface: var(--md-sys-color-inverse-on-surface, #322F35);
+  --outline-variant: var(--md-sys-color-outline-variant, #49454F);
+
+  --primary-container: var(--md-sys-color-primary-container, #4F378B);
+  --on-primary-container: var(--md-sys-color-on-primary-container, #EADDFF);
+  --secondary-container: var(--md-sys-color-secondary-container, #4A4458);
+  --on-secondary-container: var(--md-sys-color-on-secondary-container, #E8DEF8);
+  --tertiary: var(--md-sys-color-tertiary, #EFB8C8);
+  --on-tertiary: var(--md-sys-color-on-tertiary, #492532);
+  --tertiary-container: var(--md-sys-color-tertiary-container, #633B48);
+  --on-tertiary-container: var(--md-sys-color-on-tertiary-container, #FFD8E4);
+}

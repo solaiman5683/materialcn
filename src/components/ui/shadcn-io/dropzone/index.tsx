@@ -87,7 +87,7 @@ export const Dropzone = ({
     >
       <Button
         className={cn(
-          'relative h-auto w-full flex-col overflow-hidden p-3',
+          'relative h-auto w-full flex-col overflow-hidden p-3 border-0 hover:bg-[var(--inverse-on-surface)]',
           isDragActive && 'outline-none ring-1 ring-ring',
           className
         )}

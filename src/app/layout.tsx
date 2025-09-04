@@ -1,8 +1,9 @@
+import Sidebar from "@/components/web/sidebar";
+import TopBar from "@/components/web/topbar";
+import "@/styles/theme.css";
 import type { Metadata } from "next";
 import { Roboto } from 'next/font/google';
 import "./globals.css";
-import TopBar from "@/components/web/topbar";
-import Sidebar from "@/components/web/sidebar";
 
 const roboto = Roboto({
   subsets: ['latin'],
@@ -22,14 +23,14 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`antialiased ${roboto.className} bg-background`}
+        className={`antialiased ${roboto.className} bg-[var(--secondary-container)]/50 dark:bg-[var(--md-sys-color-inverse-on-surface)] text-[var(--on-secondary-container)]`}
       >
         <div className="flex flex-col h-screen">
           <TopBar />
           <main className="flex-1 flex overflow-hidden px-4">
             <Sidebar />
 
-            <div className="flex-grow p-6 rounded-4xl bg-accent">
+            <div className="flex-grow p-6 rounded-4xl bg-[var(--surface-bright)]">
               {children}
             </div>
           </main>
